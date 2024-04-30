@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crime Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?
+      family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
+
+  </head>
+
+  <body>
+    <!------------------ Header ------------------>
+    <div class="header">
+      <div class="container">
+        <div class="navbar">
+          <div class="Logo">
+            <a href="index.html">
+              <img src="images/Logo bg removed.png" alt="EbookStore-Logo" width="50%" height="30%"
+            /></a>
+          </div>
+          <!----------  Nav Bar ------------------>
+          <nav>
+            <ul id="MenuItems" >
+              <li><a href="index.html" style="font-size: 28px;"><i class="fa fa-fw fa-home"></i>Home</a></li>
+              <li><a href="Catalogue.html" style="font-size: 25px;"><i class="fa fa-fw fa-list"></i>Catalogue</a></li>
+              <li><a href="Registration form.html" style="font-size: 25px;"><i class="fa fa-fw fa-user-plus"></i>Register</a></li>
+              <li><a href="account.html" style="font-size: 25px;"><i class="fa fa-fw fa-user"></i>Login</a></li>
+            </ul>
+            <br>
+            <br>
+            <br> 
+               <img src="images/menu.png" class="menu-icon" onclick="menutoggle()" />
+          </nav>
+        </div>
+      </div>    
+    </div>
+
+    <div class="small-container">
+      <div class="row row-2">
+        <h2>Crime</h2>
+        <select>
+          <option>Default sorting</option>
+          <option>Sort by price</option>
+          <option>Sort by popularity</option>
+          <option>Sort by rating</option>
+          <option>Sort by sale</option>
+        </select>
+      </div>
+
+      <div class="row">
+        <div class="col-4">
+          
+            <img src="all genres/crime/cri1.jpg" alt="Book 1" />
+          
+            <h3>UPROOTED</h3>
+                <p>Author: NAOMI NOVIK</p>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+        </div>
+        
+        <div class="col-4">
+          <img src="all genres/crime/cri3.jpg" alt="Book 3" />
+          <h3>SNOW WHITE AND THE SEVEN DWARFS</h3>
+                <p>Author: VARIOUS AUTHORS</p>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          
+        </div>
+        <div class="col-4">
+          <img src="all genres/crime/cri4.jpg" alt="Book 4" />
+          <h3>CIBDERELLA</h3>
+          <p>Author: VARIOUS AUTHORS</p>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          
+        </div>
+
+        <div class="col-4">
+            <img src="all genres/crime/cri5.jpg" alt="Book 5" />
+            <h3> THE SLEEPING BEAUTY</h3>
+                <p>Author: VARIOUS AUTHORS</p>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            
+          </div>
+
+      </div>
+     
+        <div class="col-4">
+          <img src="all genres/crime/cri9.jpg" alt="Book 9" />
+          <h3>THE GOOSE GIRL</h3>
+          <p>Author: SHANNON HALE</p>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+       
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <img src="all genres/crime/cri10.jpg" alt="Book 10" />
+          <h3> GRIMM'S FAIRY TALES</h3>
+                <p>Author: JACOB GRIMM, WILHEIM GRIMM</p>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+        </div> 
+      </div> 
+      
+    </div>
+	 
+    
+        <!-- ---------------------footer------------------- -->
+        <section class="footer">
+
+          <div class="box-container">
+      
+              <div class="box">
+                  <h3>Navigation</h3>
+                  <a href="./index.html"> <i class="fas fa-code"></i> Home </a>
+                  <a href="Catalogue.html"> <i class="fas fa-code"></i> Catalogue</a>
+                  <a href="Registration form.html"> <i class="fas fa-code"></i> Register </a>
+                  <a href="account.html"> <i class="fas fa-code"></i> Login </a>
+              </div>
+      
+              <div class="box">
+                  <h3>extra links</h3>
+                  <a href="#"> <i class="fas fa-code"></i> Cart </a>
+                  <a href="#"> <i class="fas fa-code"></i> Track Order </a>
+                  <a href="#"> <i class="fas fa-code"></i> Know More About Us </a>
+                  <a href="#"> <i class="fas fa-code"></i> Privacy Policy </a>
+                  <a href="#"> <i class="fas fa-code"></i> COntact Us</a>
+              </div>
+      
+              <div class="box">
+                  <h3>contact info</h3>
+                  <a href="#"> <i class="fas fa-phone"></i> 9877445632 </a>
+                  <a href="#"> <i class="fas fa-phone"></i> 9954667804 </a>
+                  <a href="#"> <i class="fas fa-envelope"></i> inkinfinity@gmail.com </a>
+                  <a href="#"> <i class="fas fa-envelope"></i> inkinfinity.contact@gmail.com </a>
+              </div>
+      
+          </div>
+          <br> <br>
+          <br> <br>
+        
+          <div class="share">
+              <a href="https://www.facebook.com" class="fab fa-facebook-f"></a>
+              <a href="https://twitter.com" class="fab fa-twitter"></a>
+              <a href="https://www.instagram.com" class="fab fa-instagram"></a>
+              <a href="https://www.linkedin.com" class="fab fa-linkedin"></a>
+              
+          </div>
+      
+      </section>
+        <!-- ---------Javascript for toggle menu------------- -->
+        <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+        <script src="JS Code.js"></script>
+        <script>
+          var MenuItems = document.getElementById("MenuItems");
+          MenuItems.style.maxHeight = "0px";
+          function menutoggle() 
+          {
+            if (MenuItems.style.maxHeight == "0px") {
+              MenuItems.style.maxHeight = "200px";
+            } else {
+              MenuItems.style.maxHeight = "0px";
+            }
+          }
+        </script>
+      </body>
+    </html>
